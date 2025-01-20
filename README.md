@@ -1,6 +1,6 @@
+![Image](https://github.com/user-attachments/assets/2bd109cf-0e41-4bcb-a61a-470e90eb5d58)
 ```markdown
 # DistilBERT Model with Hugging Face Transformers
-
 A basic implementation of **DistilBERT** using the Hugging Face Transformers library to demonstrate its capabilities for NLP tasks such as text classification, sentiment analysis, and more.
 
 ---
@@ -16,11 +16,6 @@ A basic implementation of **DistilBERT** using the Hugging Face Transformers lib
 - Python >= 3.7
 - Transformers
 - PyTorch
-
-Install dependencies with:
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -42,8 +37,7 @@ python app.py --text "Entet your text here."
 
 ## Project Structure
 - `classify.py`: Script to classify text using pre-trained DistilBERT.
-- `tokenize.py`: Script to tokenize input text.
-- `requirements.txt`: List of dependencies.
+- `similarity.py`: Script to similarity input text.
 
 ---
 
